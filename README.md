@@ -1,10 +1,68 @@
 # PRSP
-## Plataforma de Reservas para Serviços Públicos.
 
-Trata-se de um sistema para uso público, em que os **utentes** (Usuários), solicitam uma reserva de serviço.
+## Plataforma de Reservas para Serviços Públicos
 
-### Como funciona
+Sistema orientado à gestão de reservas de serviços públicos, permitindo que utentes solicitem reservas e que a operação seja administrada através de módulos de gestão.
 
-Os sistema é composto por três módulos:
+## Objetivo
 
-**Módulo Gestor**: é o módulo núcleo do sistema, em que boa parte das ações estão centradas.
+Centralizar o processo de solicitação e gestão de reservas, reduzindo operações manuais e criando uma base estruturada para atendimento e controlo de serviços.
+
+## Modelo funcional
+
+```text
+Utente
+  │
+  ▼
+Solicitação de Reserva
+  │
+  ▼
+Gestão / Validação
+  │
+  ▼
+Reserva
+  │
+  ▼
+Atendimento / Serviço
+```
+
+## Módulos
+
+### Módulo Gestor
+
+Núcleo administrativo do sistema, responsável pela gestão das principais operações e informações da plataforma.
+
+### Módulo do Utente
+
+Interface destinada aos utilizadores que precisam solicitar e acompanhar reservas de serviços.
+
+### Operação
+
+Camada destinada ao processamento das reservas e organização do fluxo de atendimento.
+
+## Engenharia
+
+O projeto explora conceitos de:
+
+- Modelação de processos
+- Gestão de utilizadores
+- Gestão de reservas
+- Regras de negócio
+- Arquitetura de aplicações web
+- Organização de módulos
+- Persistência de dados
+
+## Estado
+
+Projeto de desenvolvimento.
+
+## Autor
+
+**Nzongo Pedro — Mr. PHP**  
+Engenheiro de Software · Engenheiro de Telecomunicações
+
+GitHub: https://github.com/Nzongo-Pedro
+
+## Licença
+
+Consulte os ficheiros do projeto para informações específicas de licenciamento e utilização.
